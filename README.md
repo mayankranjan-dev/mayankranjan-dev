@@ -16,24 +16,55 @@
   <img src="https://komarev.com/ghpvc/?username=mayankranjan-dev&label=Profile%20views&color=7F00FF&style=for-the-badge" alt="Profile views" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Open_to_internships-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Available_from-January_2027-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Location-Pune,_India-orange?style=flat-square" />
+</p>
+
 ---
 
 <!-- ===================== ABOUT ===================== -->
 ## 🙋 About me
 
+I'm a final-year **B.Tech Computer Science** student at ADYP University, Pune, heading toward **AI engineering**. I like taking an idea from a model to a working service: an API with auth, tests, a Docker image and CI around it.
+
+My recent work is in **LLM applications**: an AI code reviewer on a local model, a scam-job classifier built on DistilBERT, and a router that picks the cheapest LLM that can handle each prompt.
+
 ```python
 class MayankRanjan:
-    location   = "Pune, India 🇮🇳"
-    education  = "B.Tech Computer Science @ ADYP University (2023 – 2027)"
-    focus      = ["AI Engineering", "LLM apps & RAG", "Backend APIs"]
+    location    = "Pune, India 🇮🇳"
+    education   = "B.Tech Computer Science @ ADYP University (2023 – 2027)"
+    focus       = ["AI Engineering", "LLM apps & RAG", "Backend APIs"]
     builds_with = ["Python", "FastAPI", "Ollama", "Hugging Face", "Docker"]
     cares_about = ["tests", "security", "CI/CD", "measurable results"]
     looking_for = "Backend / Applied AI / Software internship from January 2027"
-    languages  = ["English", "Hindi", "Japanese (beginner)"]
+    languages   = ["English", "Hindi", "Japanese (beginner)"]
 
     def fun_fact(self):
         return "My code reviewer is an LLM I built myself 🤖"
 ```
+
+### 🔭 What I'm focused on
+- 🤖 **LLM applications**: local models with Ollama, structured outputs, fallbacks and retries
+- 📚 **RAG**: embeddings with sentence-transformers, vector search with ChromaDB
+- 📏 **LLM evaluation**: adversarial test sets, accuracy checks and guardrails
+- ⚙️ **Backend engineering**: FastAPI services that are secure, tested and containerized
+
+---
+
+<!-- ===================== NUMBERS ===================== -->
+## 📊 By the numbers
+
+<table align="center">
+  <tr>
+    <td align="center" width="140"><h2>374</h2>passing tests<br/><sub>CodeRev Bot</sub></td>
+    <td align="center" width="140"><h2>169 ms</h2>per job posting on CPU<br/><sub>JobSail</sub></td>
+    <td align="center" width="140"><h2>10 / 10</h2>adversarial scams caught<br/><sub>JobSail</sub></td>
+    <td align="center" width="140"><h2>&lt;1 ms</h2>prompt routing<br/><sub>SwitchOne</sub></td>
+    <td align="center" width="140"><h2>~95%</h2>routing accuracy<br/><sub>SwitchOne</sub></td>
+  </tr>
+</table>
 
 ---
 
@@ -50,16 +81,19 @@ class MayankRanjan:
         <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" />
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
       </p>
-      <p>✅ <b>374 passing tests</b> · 🔐 HMAC-secured webhooks</p>
+      <p>✅ <b>374 passing tests</b> · 🔐 HMAC-secured webhooks · 🐳 Docker</p>
       <details>
         <summary><b>▶ How it works</b></summary>
         <ul>
           <li>Receives GitHub PR webhooks and reviews the diff with a local Ollama model.</li>
           <li>Returns structured findings: severity, file, lines and a suggested fix.</li>
+          <li>Also has a manual mode where you paste code to review.</li>
           <li>HMAC-SHA256 signature checks, API-key auth and per-IP rate limiting.</li>
           <li>Retry queue for offline or timed-out LLM calls.</li>
-          <li>Judge0-sandboxed "Run Code" feature and a manual review mode.</li>
+          <li>Judge0-sandboxed "Run Code" feature.</li>
+          <li>Docker image reaches healthy status.</li>
         </ul>
       </details>
     </td>
@@ -72,14 +106,15 @@ class MayankRanjan:
         <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
       </p>
-      <p>⚡ <b>169 ms</b> per posting on CPU · 🎯 <b>10/10</b> adversarial scams flagged</p>
+      <p>⚡ <b>169 ms</b> per posting on CPU · 🎯 <b>10/10</b> adversarial scams flagged · ✅ 52 tests</p>
       <details>
         <summary><b>▶ How it works</b></summary>
         <ul>
-          <li>Aggregates job postings and scores each one with a fine-tuned DistilBERT classifier.</li>
+          <li>Aggregates job postings and scores each one with a fine-tuned DistilBERT scam classifier.</li>
+          <li>Classifier trained on 300 synthetic postings.</li>
           <li>Deterministic guardrail rules can only <i>raise</i> risk, never lower it. They raised risk on 3 of 10 adversarial postings.</li>
-          <li>Served through FastAPI with a SQLite backend.</li>
-          <li>52 passing tests.</li>
+          <li>Flagged all 10 hand-written adversarial scam postings as suspicious or worse.</li>
+          <li>Served through FastAPI with a SQLite backend. 52 passing tests.</li>
         </ul>
       </details>
     </td>
@@ -93,10 +128,11 @@ class MayankRanjan:
         <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
         <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" />
       </p>
-      <p>⚡ <b>&lt;1 ms</b> routing · 🎯 <b>~95%</b> cross-validated accuracy</p>
+      <p>⚡ <b>&lt;1 ms</b> routing · 🎯 <b>~95%</b> cross-validated accuracy · 🧪 80% coverage gate</p>
       <details>
         <summary><b>▶ How it works</b></summary>
         <ul>
+          <li>Sends each prompt to the cheapest model that can handle it: local, free-tier or premium.</li>
           <li>Logistic regression on 10 hand-built features classifies prompt complexity locally.</li>
           <li>Trained on 150 hand-labeled prompts.</li>
           <li>Falls back to another model on failure and escalates one step when needed.</li>
@@ -129,6 +165,20 @@ class MayankRanjan:
 
 ---
 
+<!-- ===================== HOW I BUILD ===================== -->
+## 🧭 How I build
+
+| Principle | What it looks like in my projects |
+|---|---|
+| 🧪 **Test everything** | 374 tests in CodeRev Bot, 52 in JobSail, an 80% coverage gate in SwitchOne |
+| 🔐 **Secure by default** | HMAC-SHA256 webhook verification, API-key auth and per-IP rate limiting |
+| 🛟 **Plan for failure** | Retry queues for timed-out LLM calls, model fallback and escalation |
+| 🧱 **Guardrails around models** | Rules that can only raise a model's risk score, never lower it |
+| 📏 **Measure, don't guess** | Latency, accuracy and adversarial test results for every model |
+| 💻 **Local-first AI** | Ollama models that run on my own machine, with no paid API needed |
+
+---
+
 <!-- ===================== SKILLS ===================== -->
 ## 🛠️ Tech stack
 
@@ -138,43 +188,62 @@ class MayankRanjan:
   </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Hugging_Face_Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
-  <img src="https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/RAG-6E40C9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
-</p>
+| Area | Skills |
+|---|---|
+| 💬 **Languages** | Python, SQL, JavaScript, Java, C, C++ |
+| 🤖 **AI / ML** | RAG, ChromaDB, sentence-transformers, Hugging Face Transformers, scikit-learn, Ollama (local LLMs), LLM evaluation |
+| ⚙️ **Backend** | FastAPI, REST APIs, SQLAlchemy, pytest, HMAC-SHA256 and API-key auth, rate limiting |
+| 📊 **Data, tools & DevOps** | SQLite, Pandas, Tableau, Excel, Git, GitHub Actions, Docker |
+| 🎨 **Frontend** | React, Vite, Tailwind CSS |
+
+---
+
+<!-- ===================== EDUCATION & EXPERIENCE ===================== -->
+## 🎓 Education
+
+**B.Tech in Computer Science**, ADYP University, Pune · *Aug 2023 – May 2027*
+
+<details>
+  <summary><b>▶ Relevant coursework</b></summary>
+
+- Data Structures and Algorithms
+- Database Management Systems
+- Operating Systems
+- Computer Networks
+- Software Reliability
+- Software Analysis
+- Java Application Development
+- C and C++
+
+</details>
+
+## 💼 Experience
+
+**Deloitte Data Analytics Job Simulation**, Forage (virtual) · *June 2025*
+- Built a Tableau dashboard and completed Excel data analysis tasks.
 
 ---
 
 <!-- ===================== CERTIFICATIONS ===================== -->
-<details>
-  <summary><h2>📜 Certifications (click to expand)</h2></summary>
+## 📜 Certifications
 
-- 🏅 Oracle Cloud Infrastructure Certified **AI Foundations Associate**: Oracle (2026)
-- 🏅 **SQL (Intermediate)** and **Python (Basic)**: HackerRank (2026)
-- 🏅 **AI Skills Passport**: EY and Microsoft
-- 🏅 **Claude 101**: Anthropic
-- 💼 **Deloitte Data Analytics Job Simulation**: Forage (2025)
-
-</details>
+| Certification | Issuer | Year |
+|---|---|---|
+| 🏅 OCI Certified **AI Foundations Associate** | Oracle | 2026 |
+| 🏅 **SQL (Intermediate)** | HackerRank | 2026 |
+| 🏅 **Python (Basic)** | HackerRank | 2026 |
+| 🏅 **AI Skills Passport** | EY and Microsoft | |
+| 🏅 **Claude 101** | Anthropic | |
 
 ---
 
-<!-- ===================== CONTRIBUTION SNAKE ===================== -->
-## 🐍 Contribution snake
+<!-- ===================== LOOKING FOR ===================== -->
+## 🎯 What I'm looking for
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mayankranjan-dev/mayankranjan-dev/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mayankranjan-dev/mayankranjan-dev/output/github-snake.svg" />
-    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/mayankranjan-dev/mayankranjan-dev/output/github-snake-dark.svg" />
-  </picture>
-</p>
+- **Role:** internship in **AI / ML engineering**, **backend** or **software engineering**
+- **Start:** January 2027
+- **Where:** Pune, or remote
+- **I bring:** working LLM projects with tests, security and Docker already in place
 
 ---
 
@@ -182,8 +251,8 @@ class MayankRanjan:
 ## 📫 Let's connect
 
 <p align="center">
-  I'm looking for an internship starting <b>January 2027</b>, in AI / ML, backend or software engineering.<br/>
-  📧 <a href="mailto:mayankranjan1606@gmail.com"><b>mayankranjan1606@gmail.com</b></a> · 💼 <a href="https://www.linkedin.com/in/mayankranjan1606/"><b>LinkedIn</b></a>
+  If you're hiring interns or want to talk about AI engineering, I'd love to hear from you.<br/><br/>
+  📧 <a href="mailto:mayankranjan1606@gmail.com"><b>mayankranjan1606@gmail.com</b></a> · 💼 <a href="https://www.linkedin.com/in/mayankranjan1606/"><b>LinkedIn</b></a> · 📄 <a href="https://github.com/mayankranjan-dev/mayankranjan-dev/blob/main/resume.pdf"><b>Resume</b></a>
 </p>
 
 <p align="center">
