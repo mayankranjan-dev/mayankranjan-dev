@@ -27,22 +27,20 @@
 <!-- ===================== ABOUT ===================== -->
 ## 🙋 About me
 
-I'm a final-year **B.Tech Computer Science** student at ADYP University, Pune, heading toward **AI engineering**. I like taking an idea from a model to a working service: an API with auth, tests, a Docker image and CI around it.
-
-My recent work is in **LLM applications**: an AI code reviewer on a local model, a scam-job classifier built on DistilBERT, and a router that picks the cheapest LLM that can handle each prompt.
+I'm a final-year **B.Tech Computer Science** student at ADYP University, Pune, working toward **AI engineering**. I take ideas from a model to a working service, with auth, tests, Docker and CI around it. Here's the short version:
 
 ```python
 class MayankRanjan:
-    location    = "Pune, India 🇮🇳"
-    education   = "B.Tech Computer Science @ ADYP University (2023 – 2027)"
+    location    = "Pune, India"
+    education   = "B.Tech CS, ADYP University (2023-2027)"
     focus       = ["AI Engineering", "LLM apps & RAG", "Backend APIs"]
     builds_with = ["Python", "FastAPI", "Ollama", "Hugging Face", "Docker"]
     cares_about = ["tests", "security", "CI/CD", "measurable results"]
-    looking_for = "Backend / Applied AI / Software internship from January 2027"
+    looking_for = "Backend / Applied AI / Software internship, Jan 2027"
     languages   = ["English", "Hindi", "Japanese (beginner)"]
 
     def fun_fact(self):
-        return "My code reviewer is an LLM I built myself 🤖"
+        return "My code reviewer is an LLM I built myself."
 ```
 
 ### 🔭 What I'm focused on
