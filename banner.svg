@@ -1,108 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Mayank Ranjan, Aspiring AI Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Mayank Ranjan | Developer Portfolio</title>
+  <desc id="desc">Mayank Ranjan. Building thoughtful software, backed by evidence. Computer Science undergraduate in Pune.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1026"/>
-      <stop offset="55%" stop-color="#1a1050"/>
-      <stop offset="100%" stop-color="#062a4d"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="frame"><rect width="1200" height="340" rx="18"/></clipPath>
+    <clipPath id="round"><rect width="1200" height="320" rx="18"/></clipPath>
     <style>
-      .name   { font: 800 66px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; letter-spacing: -1px; }
-      .title  { font: 600 26px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: url(#accent); }
-      .line   { font: 500 21px 'Consolas', 'SFMono-Regular', 'Menlo', monospace; fill: #cbd5e1; }
-      .pill   { font: 700 15px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #bbf7d0; letter-spacing: 1.5px; }
-      .prompt { font: 700 21px 'Consolas', 'SFMono-Regular', 'Menlo', monospace; fill: #22d3ee; }
-
-      .rise1 { animation: rise .9s ease-out .1s both; }
-      .rise2 { animation: rise .9s ease-out .45s both; }
-      .rise3 { animation: rise .9s ease-out .8s both; }
-      @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
-
-      /* three taglines take turns, 9 s loop */
-      /* without animation support only the first line shows */
-      .t2, .t3 { opacity: 0; }
-      .t1, .t2, .t3 { animation: cycle 9s infinite both; }
-      .t2 { animation-delay: 3s; }
-      .t3 { animation-delay: 6s; }
-      @keyframes cycle { 0% { opacity: 0; } 4% { opacity: 1; } 30% { opacity: 1; } 34% { opacity: 0; } 100% { opacity: 0; } }
-
-      .cursor { animation: blink 1s steps(1) infinite; }
-      @keyframes blink { 50% { opacity: 0; } }
-
-      .dot { animation: pulse 1.6s ease-in-out infinite; }
-      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
-
-      .node { animation: glow 3s ease-in-out infinite; }
-      .n2 { animation-delay: .5s; } .n3 { animation-delay: 1s; } .n4 { animation-delay: 1.5s; } .n5 { animation-delay: 2s; } .n6 { animation-delay: 2.5s; }
-      @keyframes glow { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
-
-      .edge { stroke: #22d3ee; stroke-opacity: .28; stroke-width: 1.5; stroke-dasharray: 6 8; animation: flow 2.5s linear infinite; }
-      @keyframes flow { to { stroke-dashoffset: -28; } }
+      text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+      .eyebrow { font-size:15px; font-weight:700; letter-spacing:3.4px; fill:#A8B1AE; }
+      .name { font-size:68px; font-weight:800; letter-spacing:-1.9px; fill:#F5F3EE; }
+      .subtitle { font-size:25px; font-weight:500; fill:#D8DFD9; }
+      .typing { font:500 17px Consolas, Menlo, monospace; fill:#93ADC7; }
+      .tiny { font:700 13px 'Segoe UI', Arial, sans-serif; letter-spacing:2.0px; fill:#A8B1AE; }
+      .panelHead { font:800 20px 'Segoe UI', Arial, sans-serif; fill:#F5F3EE; letter-spacing:1px; }
+      .panelSub { font:600 12px 'Segoe UI', Arial, sans-serif; fill:#A8B1AE; letter-spacing:1px; }
+      .route { stroke-dasharray:5 10; animation: move 5s linear infinite; }
+      .cursor { animation: blink 1.2s steps(1) infinite; }
+      .breathe { animation: breathe 3.5s ease-in-out infinite; }
+      .b2 { animation-delay:1.2s; } .b3 { animation-delay:2.4s; }
+      @keyframes move { to { stroke-dashoffset:-60; } }
+      @keyframes blink { 50% { opacity:0; } }
+      @keyframes breathe { 0%,100% { opacity:.60; } 50% { opacity:1; } }
+      @media (prefers-reduced-motion: reduce) { .route,.cursor,.breathe {animation:none!important;} }
     </style>
   </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="#171D22"/>
+    <rect x="0" y="0" width="12" height="320" fill="#B7C8AA"/>
+    <path d="M680 20 V300" stroke="#3A4548" stroke-width="1"/>
+    <rect x="65" y="45" width="31" height="5" rx="2.5" fill="#B7C8AA"/>
+    <rect x="100" y="45" width="12" height="5" rx="2.5" fill="#D7A98A"/>
+    <text class="eyebrow" x="64" y="91">HELLO, I'M</text>
+    <text class="name" x="61" y="160">Mayank Ranjan</text>
+    <text class="subtitle" x="65" y="201">Building thoughtful software,</text>
+    <text class="subtitle" x="65" y="234">backed by evidence.</text>
+    <text class="typing" x="65" y="274">&gt; explore · experiment · engineer<tspan class="cursor" fill="#B7C8AA">_</tspan></text>
 
-  <g clip-path="url(#frame)">
-    <rect width="1200" height="340" fill="url(#bg)"/>
-
-    <!-- slow drifting glows -->
-    <circle cx="960" cy="150" r="230" fill="url(#glow)">
-      <animate attributeName="cx" values="960;900;960" dur="12s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="120" cy="330" r="200" fill="#a855f7" fill-opacity="0.10">
-      <animate attributeName="cy" values="330;290;330" dur="10s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- neural network on the right -->
-    <g transform="translate(790,50)">
-      <line class="edge" x1="40"  y1="40"  x2="190" y2="20"/>
-      <line class="edge" x1="40"  y1="40"  x2="190" y2="120"/>
-      <line class="edge" x1="40"  y1="140" x2="190" y2="20"/>
-      <line class="edge" x1="40"  y1="140" x2="190" y2="120"/>
-      <line class="edge" x1="40"  y1="140" x2="190" y2="220"/>
-      <line class="edge" x1="40"  y1="240" x2="190" y2="120"/>
-      <line class="edge" x1="40"  y1="240" x2="190" y2="220"/>
-      <line class="edge" x1="190" y1="20"  x2="330" y2="80"/>
-      <line class="edge" x1="190" y1="120" x2="330" y2="80"/>
-      <line class="edge" x1="190" y1="120" x2="330" y2="180"/>
-      <line class="edge" x1="190" y1="220" x2="330" y2="180"/>
-
-      <circle class="node n1" cx="40"  cy="40"  r="9"  fill="#a855f7"/>
-      <circle class="node n3" cx="40"  cy="140" r="9"  fill="#a855f7"/>
-      <circle class="node n5" cx="40"  cy="240" r="9"  fill="#a855f7"/>
-      <circle class="node n2" cx="190" cy="20"  r="11" fill="#818cf8"/>
-      <circle class="node n4" cx="190" cy="120" r="11" fill="#818cf8"/>
-      <circle class="node n6" cx="190" cy="220" r="11" fill="#818cf8"/>
-      <circle class="node n3" cx="330" cy="80"  r="13" fill="#22d3ee"/>
-      <circle class="node n5" cx="330" cy="180" r="13" fill="#22d3ee"/>
-    </g>
-
-    <!-- accent bar -->
-    <rect x="70" y="62" width="64" height="5" rx="2.5" fill="url(#accent)" class="rise1"/>
-
-    <!-- text -->
-    <text x="66" y="140" class="name rise1">Mayank Ranjan</text>
-    <text x="70" y="184" class="title rise2">Aspiring AI Engineer · Backend &amp; LLM Applications</text>
-
-    <g class="rise3">
-      <text x="70" y="236" class="prompt">&gt;</text>
-      <text x="96" y="236" class="line t1">I build LLM-powered tools that actually ship<tspan class="cursor" fill="#22d3ee">_</tspan></text>
-      <text x="96" y="236" class="line t2">FastAPI · Local LLMs · RAG · Docker · CI<tspan class="cursor" fill="#22d3ee">_</tspan></text>
-      <text x="96" y="236" class="line t3">374 tests · 169 ms inference · ~95% routing accuracy<tspan class="cursor" fill="#22d3ee">_</tspan></text>
-    </g>
-
-    <!-- status pill -->
-    <g class="rise3">
-      <rect x="70" y="268" width="392" height="38" rx="19" fill="#052e16" stroke="#22c55e" stroke-opacity="0.6"/>
-      <circle class="dot" cx="94" cy="287" r="6" fill="#22c55e"/>
-      <text x="110" y="292.5" class="pill">OPEN TO INTERNSHIPS · JAN 2027</text>
+    <!-- Flat, animated engineering workflow illustration -->
+    <g transform="translate(720,39)">
+      <text class="tiny" x="8" y="16">HOW I WORK</text>
+      <path class="route" d="M100 79 H171 Q193 79 193 101 V129 H248 Q266 129 266 151 V177 H328" fill="none" stroke="#B7C8AA" stroke-width="2" opacity=".68"/>
+      <g class="breathe">
+        <rect x="5" y="45" width="154" height="91" rx="12" fill="#20282D" stroke="#43514C"/>
+        <rect x="19" y="59" width="26" height="5" rx="2.5" fill="#B7C8AA"/>
+        <text class="panelHead" x="18" y="102">BUILD</text>
+        <text class="panelSub" x="18" y="121">01  /  CREATE</text>
+      </g>
+      <g class="breathe b2">
+        <rect x="164" y="94" width="149" height="91" rx="12" fill="#20282D" stroke="#465565"/>
+        <rect x="178" y="108" width="26" height="5" rx="2.5" fill="#93ADC7"/>
+        <text class="panelHead" x="177" y="151">TEST</text>
+        <text class="panelSub" x="177" y="170">02  /  VERIFY</text>
+      </g>
+      <g class="breathe b3">
+        <rect x="315" y="143" width="145" height="91" rx="12" fill="#20282D" stroke="#5D5249"/>
+        <rect x="329" y="157" width="26" height="5" rx="2.5" fill="#D7A98A"/>
+        <text class="panelHead" x="328" y="200">SHIP</text>
+        <text class="panelSub" x="328" y="219">03  /  IMPROVE</text>
+      </g>
+      <circle cx="109" cy="79" r="4" fill="#B7C8AA"/>
+      <circle cx="263" cy="129" r="4" fill="#93ADC7"/>
+      <circle cx="328" cy="177" r="4" fill="#D7A98A"/>
     </g>
   </g>
 </svg>
