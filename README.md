@@ -19,7 +19,6 @@
 
 <p align="center"><img src="./impact.svg" width="100%" alt="Selected project metrics" /></p>
 
-<sub>Project-level results, not production benchmarks. *SwitchOne: ~95% cross-validated accuracy on 150 hand-labeled prompts. JobSail: 10/10 hand-written adversarial scam examples flagged; the classifier was fine-tuned on 300 synthetic postings.</sub>
 
 ## Featured work
 
