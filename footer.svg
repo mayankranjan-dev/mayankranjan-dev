@@ -1,24 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Thanks for visiting">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="124" viewBox="0 0 1200 124" role="img" aria-labelledby="title desc">
+  <title id="title">Connect with Mayank Ranjan</title>
+  <desc id="desc">Thanks for exploring. Let's create something meaningful.</desc>
   <defs>
-    <linearGradient id="w" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
-    </linearGradient>
+    <clipPath id="round"><rect width="1200" height="124" rx="16"/></clipPath>
     <style>
-      .msg { font: 600 18px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #8b949e; letter-spacing: .5px; }
+      text{font-family:'Segoe UI',Arial,sans-serif}
+      .head{font-size:23px;font-weight:750;fill:#F5F3EE}
+      .sub{font-size:15px;fill:#A8B1AE;font-weight:500}
+      .tick{animation:tick 5s ease-in-out infinite}
+      .t2{animation-delay:.5s} .t3{animation-delay:1s}
+      @keyframes tick{0%,100%{opacity:.42}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.tick{animation:none!important}}
     </style>
   </defs>
-  <path fill="url(#w)" fill-opacity="0.35">
-    <animate attributeName="d" dur="8s" repeatCount="indefinite"
-      values="M0 70 Q300 45 600 70 T1200 70 V120 H0 Z;
-              M0 70 Q300 95 600 70 T1200 70 V120 H0 Z;
-              M0 70 Q300 45 600 70 T1200 70 V120 H0 Z"/>
-  </path>
-  <path fill="url(#w)">
-    <animate attributeName="d" dur="6s" repeatCount="indefinite"
-      values="M0 88 Q300 112 600 88 T1200 88 V120 H0 Z;
-              M0 88 Q300 64 600 88 T1200 88 V120 H0 Z;
-              M0 88 Q300 112 600 88 T1200 88 V120 H0 Z"/>
-  </path>
-  <text x="600" y="30" text-anchor="middle" class="msg">Thanks for visiting · Let's build something useful together</text>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="124" fill="#171D22"/>
+    <rect x="0" width="1200" height="4" fill="#B7C8AA"/>
+    <rect class="tick" x="77" y="45" width="26" height="26" rx="7" fill="#B7C8AA"/>
+    <rect class="tick t2" x="114" y="45" width="26" height="26" rx="7" fill="#93ADC7"/>
+    <rect class="tick t3" x="151" y="45" width="26" height="26" rx="7" fill="#D7A98A"/>
+    <text class="head" x="245" y="56">Thanks for exploring.</text>
+    <text class="sub" x="246" y="80">Let’s create something meaningful.</text>
+    <text class="sub" x="1080" y="73" text-anchor="end">BUILD · TEST · SHIP</text>
+  </g>
 </svg>
