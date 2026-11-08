@@ -12,7 +12,7 @@
       @keyframes tick{0%,100%{opacity:.42}50%{opacity:1}}
       @media(prefers-reduced-motion:reduce){.tick{animation:none!important}}
     </style>
-  </defs>
+  </defs> 
   <g clip-path="url(#round)">
     <rect width="1200" height="124" fill="#171D22"/>
     <rect x="0" width="1200" height="4" fill="#B7C8AA"/>
