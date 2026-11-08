@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Selected project results: 374 tests passing, 169 milliseconds CPU scoring, approximately 95 percent cross-validated accuracy, ten out of ten test scams flagged.">
+<style>text{font-family:Segoe UI,Arial,sans-serif}.metric{font-size:53px;font-weight:800;letter-spacing:-1px}.label{font-size:14px;font-weight:750;letter-spacing:1px;fill:#ECEFEA}.caption{font-size:14px;fill:#A8B1AE}</style>
+<rect width="1200" height="190" rx="17" fill="#171D22"/>
+<g transform="translate(15,15)">
+<rect width="279" height="160" rx="13" fill="#20282D" stroke="#3A4548"/>
+<rect x="18" y="19" width="40" height="4" rx="2" fill="#B7C8AA"/>
+<text class="metric" x="20" y="98" fill="#B7C8AA">374</text>
+<text class="label" x="20" y="129">PASSING TESTS</text>
+<text class="caption" x="20" y="150">CodeRev Bot</text>
+</g>
+<g transform="translate(313,15)">
+<rect width="279" height="160" rx="13" fill="#20282D" stroke="#3A4548"/>
+<rect x="18" y="19" width="40" height="4" rx="2" fill="#93ADC7"/>
+<text class="metric" x="20" y="98" fill="#93ADC7">169 ms</text>
+<text class="label" x="20" y="129">CPU SCORING</text>
+<text class="caption" x="20" y="150">JobSail</text>
+</g>
+<g transform="translate(611,15)">
+<rect width="279" height="160" rx="13" fill="#20282D" stroke="#3A4548"/>
+<rect x="18" y="19" width="40" height="4" rx="2" fill="#B5A6C9"/>
+<text class="metric" x="20" y="98" fill="#B5A6C9">~95%</text>
+<text class="label" x="20" y="129">CV ACCURACY*</text>
+<text class="caption" x="20" y="150">SwitchOne</text>
+</g>
+<g transform="translate(909,15)">
+<rect width="279" height="160" rx="13" fill="#20282D" stroke="#3A4548"/>
+<rect x="18" y="19" width="40" height="4" rx="2" fill="#D7A98A"/>
+<text class="metric" x="20" y="98" fill="#D7A98A">10/10</text>
+<text class="label" x="20" y="129">TEST SCAMS FLAGGED*</text>
+<text class="caption" x="20" y="150">JobSail</text>
+</g>
+</svg>

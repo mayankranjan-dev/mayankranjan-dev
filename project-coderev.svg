@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="338" viewBox="0 0 1080 338" role="img" aria-label="CodeRev Bot — Private pull-request reviews. 374 PASSING TESTS">
+    <defs><clipPath id="clip"><rect width="1080" height="338" rx="18"/></clipPath><style>
+      text{font-family:'Segoe UI',Arial,sans-serif}
+      .kicker{font-size:15px;font-weight:800;letter-spacing:2px;fill:#B7C8AA}
+      .heading{font-size:50px;font-weight:800;letter-spacing:-1px;fill:#F5F3EE}
+      .desc{font-size:21px;font-weight:500;fill:#BAC5C1}
+      .metric{font-size:78px;font-weight:850;letter-spacing:-2px;fill:#B7C8AA}
+      .mlabel{font-size:15px;font-weight:700;letter-spacing:1px;fill:#A8B1AE}
+    </style></defs>
+    <g clip-path="url(#clip)">
+    <rect width="1080" height="338" fill="#171D22"/>
+    <rect x="0" y="0" width="10" height="338" fill="#B7C8AA"/>
+    <rect x="38" y="40" width="41" height="4" rx="2" fill="#B7C8AA"/>
+    <text class="kicker" x="41" y="76">01 / CODE REVIEW</text>
+    <text class="heading" x="39" y="137">CodeRev Bot</text>
+    <text class="desc" x="41" y="171">Private pull-request reviews</text>
+    <text class="metric" x="40" y="273">374</text>
+    <text class="mlabel" x="43" y="300">PASSING TESTS</text>
+    <g transform="translate(665,58)">
+  <rect x="0" y="0" width="341" height="227" rx="16" fill="#242D31" stroke="#485456"/>
+  <path d="M0 37H341" stroke="#485456"/>
+  <circle cx="22" cy="19" r="5" fill="#D7A98A"/><circle cx="41" cy="19" r="5" fill="#B7C8AA"/><circle cx="60" cy="19" r="5" fill="#93ADC7"/>
+  <path d="M27 76H134 M27 101H202 M27 126H118 M27 151H156 M27 176H93" stroke="#6B7A7B" stroke-width="8" stroke-linecap="round" opacity=".7"/>
+  <path d="M165 76H222 M229 101H264 M146 126H227 M186 151H279" stroke="#B7C8AA" stroke-width="8" stroke-linecap="round"/>
+  <rect x="226" y="152" width="102" height="52" rx="12" fill="#B7C8AA"/>
+  <path d="M255 178l12 10 24-24" fill="none" stroke="#171D22" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+ </g>
+    </g></svg>
