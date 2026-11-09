@@ -19,6 +19,7 @@
 
 <p align="center"><img src="./impact.svg" width="100%" alt="Selected project metrics" /></p>
 
+<sub>Project-level results, not production benchmarks. *SwitchOne: ~95% cross-validated accuracy on 150 hand-labeled prompts. JobSail: 10/10 hand-written adversarial scam examples flagged; the classifier was fine-tuned on 300 synthetic postings.</sub>
 
 ## Featured work
 
@@ -51,13 +52,29 @@
       <a href="https://github.com/mayankranjan-dev/rag-resume-screener"><b>Explore repository ↗</b></a>
     </td>
 </tr>
+<tr>
+<td colspan="2" valign="top" align="center">
+
+  <a href="https://github.com/mayankranjan-dev/TecSailor"><b>TecSailor · R Analytics &amp; Demand Forecasting</b></a><br/>
+  <sub>
+    <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&amp;logo=r&amp;logoColor=white" alt="R" />
+    <img src="https://img.shields.io/badge/Shiny-007BC2?style=flat-square&amp;logo=rstudio&amp;logoColor=white" alt="Shiny" />
+    <img src="https://img.shields.io/badge/ggplot2-4F7A9B?style=flat-square" alt="ggplot2" />
+    <img src="https://img.shields.io/badge/Time_Series-238F87?style=flat-square" alt="Time series" />
+    <img src="https://img.shields.io/badge/Sentiment_Analysis-AE7B4F?style=flat-square" alt="Sentiment analysis" />
+  </sub><br/>
+  <small>Market-demand analysis for Indian wireless-audio brands using Google Trends search interest, customer-review sentiment, seasonal forecasting, and an interactive Shiny dashboard.</small><br/>
+  <a href="https://github.com/mayankranjan-dev/TecSailor"><b>Explore repository ↗</b></a>
+
+</td>
+</tr>
 </table>
 
 ## Technologies I work with
 
 <details open>
 <summary><b>Languages</b></summary>
-<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square" alt="SQL" /> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++" /> <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&amp;logo=c&amp;logoColor=black" alt="C" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Java-B07219?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" /></p>
+<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&amp;logo=r&amp;logoColor=white" alt="R" /> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square" alt="SQL" /> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++" /> <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&amp;logo=c&amp;logoColor=black" alt="C" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Java-B07219?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" /></p>
 </details>
 
 <details open>
@@ -67,7 +84,7 @@
 
 <details open>
 <summary><b>AI, machine learning &amp; data</b></summary>
-<p><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" alt="Hugging Face" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" /> <img src="https://img.shields.io/badge/Ollama-4B5563?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama" /> <img src="https://img.shields.io/badge/ChromaDB-E2725B?style=flat-square" alt="ChromaDB" /> <img src="https://img.shields.io/badge/RAG-7C6CA8?style=flat-square" alt="RAG" /> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="Pandas" /> <img src="https://img.shields.io/badge/NLP-597C72?style=flat-square" alt="NLP" /> <img src="https://img.shields.io/badge/sentence--transformers-375B84?style=flat-square" alt="sentence-transformers" /> <img src="https://img.shields.io/badge/LLM_evaluation-626A76?style=flat-square" alt="LLM evaluation" /></p>
+<p><img src="https://img.shields.io/badge/Shiny-007BC2?style=flat-square&amp;logo=rstudio&amp;logoColor=white" alt="Shiny" /> <img src="https://img.shields.io/badge/ggplot2-4F7A9B?style=flat-square" alt="ggplot2" /> <img src="https://img.shields.io/badge/Time_Series_Forecasting-238F87?style=flat-square" alt="Time-series forecasting" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" alt="Hugging Face" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" /> <img src="https://img.shields.io/badge/Ollama-4B5563?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama" /> <img src="https://img.shields.io/badge/ChromaDB-E2725B?style=flat-square" alt="ChromaDB" /> <img src="https://img.shields.io/badge/RAG-7C6CA8?style=flat-square" alt="RAG" /> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="Pandas" /> <img src="https://img.shields.io/badge/NLP-597C72?style=flat-square" alt="NLP" /> <img src="https://img.shields.io/badge/sentence--transformers-375B84?style=flat-square" alt="sentence-transformers" /> <img src="https://img.shields.io/badge/LLM_evaluation-626A76?style=flat-square" alt="LLM evaluation" /></p>
 </details>
 
 <details open>
